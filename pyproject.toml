@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "livingmemory"
+version = "1.0.0"
+description = "A tag-based, local-AI memory management system for Ollama LLM conversations"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "GPL-3.0-or-later" }
+dependencies = [
+    "ollama",
+]
+
+[project.optional-dependencies]
+# exact token counts with a Hugging Face tokenizer: pip install ".[tokenizer]"
+tokenizer = [
+    "transformers",
+]
+
+[tool.setuptools]
+py-modules = ["LivingMemory"]

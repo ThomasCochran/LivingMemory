@@ -1,6 +1,6 @@
 # LivingMemory
 
-**Version 1.0.0**
+**Version 1.0.1**
 
 *Warning, this code has gone through very little testing as of this point*
 *Claude code was used to write this README file*
@@ -37,7 +37,7 @@ logging.basicConfig(level=logging.INFO)
 Install from source:
 
 ```bash
-git clone https://github.com/DarkTardigrade/LivingMemory.git
+git clone https://github.com/ThomasCochran/LivingMemory
 cd LivingMemory
 pip install .                 # token estimate, no transformers
 pip install ".[tokenizer]"    # also installs transformers for exact token counts

@@ -2,7 +2,7 @@
 
 **Version 1.0.1**
 
-*Warning, this code has gone through very little testing as of this point*
+*Warning, this code has gone through very little testing as of this point.* 
 *Claude code was used to write this README file*
 
 A tag-based, local-AI memory system for Ollama-backed LLM conversations. LivingMemory stores conversation turns and arbitrary memories in SQLite and lets a local model compress them into AI-filtered summaries — so your chatbot can remember more without ever blowing the context window.
